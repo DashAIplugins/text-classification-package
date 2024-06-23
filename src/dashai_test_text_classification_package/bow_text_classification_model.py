@@ -8,7 +8,9 @@ from DashAI.back.core.schema_fields import (
     schema_field,
 )
 from DashAI.back.dataloaders.classes.dashai_dataset import DashAIDataset
-from DashAI.back.models.scikit_learn.sklearn_like_model import SklearnLikeModel
+from dashai_test2_tabular_classification_package.scikit_learn.sklearn_like_model import (
+    SklearnLikeModel,
+)
 from datasets import Dataset
 from sklearn.feature_extraction.text import CountVectorizer
 
