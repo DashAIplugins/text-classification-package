@@ -8,7 +8,7 @@ from DashAI.back.core.schema_fields import (
     schema_field,
 )
 from DashAI.back.dataloaders.classes.dashai_dataset import DashAIDataset
-from dashai_test2_tabular_classification_package.scikit_learn.sklearn_like_model import (
+from dashai_test2_tabular_classification_package.sklearn_like_model import (
     SklearnLikeModel,
 )
 from datasets import Dataset
