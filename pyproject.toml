@@ -3,7 +3,7 @@ name = "dashai_test_text_classification_package"
 version = "0.0.4"
 dependencies = [
     'dashai_test2_tabular_classification_package',
-    'dashai-classification-metrics-package',
+    'dashai_test_classification_metrics_package',
 ]
 authors = [
   { name="DashAI team" },
