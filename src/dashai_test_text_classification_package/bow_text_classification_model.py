@@ -22,7 +22,7 @@ from dashai_test_text_classification_package.text_classification_model import (
 class BagOfWordsTextClassificationModelSchema(BaseSchema):
     """
     NumericalWrapperForText is a metamodel that allows text classification using
-    tabular classifiers and a tokenizer.
+    tabular classifiers and a tokenizer. 
     """
 
     tabular_classifier: schema_field(

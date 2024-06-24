@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test_text_classification_package"
-version = "0.0.5"
+version = "0.0.6"
 dependencies = [
     'dashai_test2_tabular_classification_package',
     'dashai_test_classification_metrics_package',
