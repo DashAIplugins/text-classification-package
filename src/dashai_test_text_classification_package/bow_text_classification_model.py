@@ -8,14 +8,14 @@ from DashAI.back.core.schema_fields import (
     schema_field,
 )
 from DashAI.back.dataloaders.classes.dashai_dataset import DashAIDataset
-from dashai_test2_tabular_classification_package.sklearn_like_model import (
-    SklearnLikeModel,
+from dashai_test_text_classification_plugin.text_classification_model import (
+    TextClassificationModel,
 )
 from datasets import Dataset
 from sklearn.feature_extraction.text import CountVectorizer
 
-from dashai_test_text_classification_package.text_classification_model import (
-    TextClassificationModel,
+from dashai_test_tabular_classification_plugin.sklearn_like_model import (
+    SklearnLikeModel,
 )
 
 
